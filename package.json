@@ -1,0 +1,22 @@
+{
+  "name": "blockchaininsurancealliance",
+  "version": "1.0.0",
+  "description": "blockchaininsurancealliance.org WebSite",
+  "main": "index.js",
+  "scripts": {
+    "build": "harp compile src docs",
+    "start": "harp server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlockchainInsuranceAlliance/blockchaininsurancealliance.org.git"
+  },
+  "keywords": [],
+  "author": "Info <info@blockchaininsurancealliance.org>",
+  "contributors": [],
+  "license": "ISC",
+  "devDependencies": {
+    "harp": "^0.25.0",
+    "node-sass": "^4.9.0"
+  }
+}
