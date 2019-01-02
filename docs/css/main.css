@@ -14,6 +14,18 @@ body {
     margin: 0 auto;
 }
 
+.main-section{
+    padding-top: 100px;
+}
+@media(max-width:768px) {
+    .main-section{
+        padding-top: 15px;
+    }
+}
+.justify{
+text-align: justify;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +51,22 @@ h4,
 h5,
 h6 {
     font-size: 16px;
+}
+#social i{
+    font-size: 4em;
+}
+#sponsors a img, #download a img{
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+#sponsors a{
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+
+}
+#sponsors a:hover{
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
 }
 
 a {
