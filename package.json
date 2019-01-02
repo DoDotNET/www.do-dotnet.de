@@ -1,7 +1,7 @@
 {
-  "name": "blockchaininsurancealliance",
+  "name": "www.do-dotnet.de",
   "version": "1.0.0",
-  "description": "blockchaininsurancealliance.org WebSite",
+  "description": "do-dotnet.de WebSite",
   "main": "index.js",
   "scripts": {
     "build": "harp compile src docs",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlockchainInsuranceAlliance/blockchaininsurancealliance.org.git"
+    "url": "https://github.com/DoDotNET/www.do-dotnet.de.git"
   },
   "keywords": [],
-  "author": "Info <info@blockchaininsurancealliance.org>",
+  "author": "Info <info@do-dotnet.de>",
   "contributors": [],
   "license": "ISC",
   "devDependencies": {
