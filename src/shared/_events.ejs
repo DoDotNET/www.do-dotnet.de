@@ -7,6 +7,11 @@
                 Unsere Treffen sind kostenlos und jeder ist herzlich willkommen.
                 Alle weiteren Informationen kommen über die Gruppen bei XING, FB bzw. stehen auf der WebSite
                 do-dotnet.de.
+                <br/><br/>
+                Die Treffen finden jeden Monat immer in der ersten Woche am Mittwoch statt.*
+                <br/><br/>
+                Termine importieren : <a class="btn btn-success" href="download/NET_User_Group_Dortmund_Treffen.ics"
+                                       target="_blank">Download</a>
             </p>
             <div class="col-md-12">
                 <!-- Nav tabs -->
@@ -20,40 +25,32 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#year2017">2017</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#year2016">2016</a>
+                    </li>
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active container" id="year2019">
 
-                        <div class="row">
-                            <div class="col-md-2">
-                                Mi. 09.01
-                            </div>
-                            <div class="col-md-10">
-                                Einführung in Rust mit Paul
-                            </div>
-                            <div class="col-md-2">
-                                Mi. 02.02
-                            </div>
-                            <div class="col-md-10">
-                                Mit Christoph
-                            </div>
-                            <div class="col-md-2">
-                                Mi. 02.03
-                            </div>
-                            <div class="col-md-10">
-                                Mit Christoph
-                            </div>
-                        </div>
-
+                        <%- partial("_events2019") %>
 
                     </div>
                     <div class="tab-pane container" id="year2018">
-                        Lorem Ipsum is simply dummy text of the p
+
+                        <%- partial("_events2018") %>
+
                     </div>
                     <div class="tab-pane container" id="year2017">
-                        Lorem Ipsum is simply dummy text of the pLorem Ipsum is simply dummy text of the p
+
+                        <%- partial("_events2017") %>
+
+                    </div>
+                    <div class="tab-pane container" id="year2016">
+
+                        <%- partial("_events2016") %>
+
                     </div>
                 </div>
 

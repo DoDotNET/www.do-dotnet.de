@@ -52,6 +52,15 @@ h5,
 h6 {
     font-size: 16px;
 }
+
+#events .tab-pane.container .row{
+    padding: 15px;
+}
+
+#social{
+    margin: 30px 0 30px 0;
+}
+
 #social i{
     font-size: 4em;
 }
@@ -81,6 +90,13 @@ a:hover {
 b,
 strong {
     font-weight: 600;
+}
+
+.tab-content{
+    border-bottom: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    font-family: Consolas, Monospaced;
 }
 
 samp {
