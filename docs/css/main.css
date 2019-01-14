@@ -2782,3 +2782,9 @@ textarea.form-control {
         font-size: 23px;
     }
 }
+
+@media (max-width: 767px) {
+    .hidden-mobile{
+        display: none;
+    }
+}
