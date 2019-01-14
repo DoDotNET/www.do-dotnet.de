@@ -99,6 +99,10 @@ strong {
     font-family: Consolas, Monospaced;
 }
 
+.tab-content .tab-pane.container .row .col-md-2{
+    font-weight: bold;
+}
+
 samp {
     display: none;
 }
@@ -2787,4 +2791,9 @@ textarea.form-control {
     .hidden-mobile{
         display: none;
     }
+}
+
+.btn-success{
+    background-color: #b4dc2d;
+    border-color: #b4dc2d;
 }
