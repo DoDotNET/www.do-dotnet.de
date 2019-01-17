@@ -41,6 +41,8 @@ h6 {
 h2
 {
     font-size: 36px;
+    color: #b4dc2d;
+    text-shadow: 1px 1px 1px #888;
 }
 
 h3 {
