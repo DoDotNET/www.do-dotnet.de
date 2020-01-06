@@ -187,6 +187,7 @@ header .fa {
 .navbar-nav .nav-item:last-child {
     border-right: 0;
 }
+.fa-meetup {color: #f64060;}
 .fa-xing {color: #b0d401;}
 .fa-facebook-official {color: #4867aa;}
 .fa-twitter {color: #1da1f2;}
