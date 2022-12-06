@@ -10,6 +10,20 @@
                 <br/><br/>
                 Die Treffen finden jeden Monat immer in der ersten Woche am Mittwoch statt.*
             </div>
+			<div class="col-md-12">
+			<br/>
+			<h3>Corona Pause (03-2020 bis 11-2022)...</h3>
+				hat uns zwar ausgebremst, aber nun geht es wieder los.
+				<br/><br/>
+				<b>CALL FOR SPEAKERS</b>
+				<br/><br/>
+				Da wir in der Corona Zeit vermutlich alle etwas berichtenswertes erlebt haben, möchte wir euch ermutigen, auch mal einen Vortrag zu halten,
+				Die Gruppen-Treffen leben vom miteinander. Und sie sind ein sicherer Raum, um das Reden vor Gruppen zu üben. Was spricht also dagegen, dass Ihr euch traut und es auch mal versucht? Wir helfen euch auch gerne dabei.
+				<br/><br/>
+				Wir freuen uns über jeden Sprecher, der .NET Dortmund Meetup mit einem 90-120-minütigem Vortrag unterstützt. Auch Themenvorschläge für die Vorträge sind gerne gesehen. 
+				<br/><br/>
+				Sprich uns einfach an, oder schreib uns eine E-Mail.
+			</div>
             <div class="col-md-12">
                 <div class="row mt-3">
                     <div class="col-md-3 col-6">
@@ -37,8 +51,17 @@
             <div class="col-md-12">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs">
+					<li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#year2023">2023</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#year2022">2022</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#year2021">2021</a>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#year2020">2020</a>
+                        <a class="nav-link" data-toggle="tab" href="#year2020">2020</a>
                     </li>
                     <li class="nav-item">
                          <a class="nav-link " data-toggle="tab" href="#year2019">2019</a>
@@ -56,7 +79,16 @@
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div class="tab-pane active container" id="year2020">
+					<div class="tab-pane active container" id="year2023">
+                        <%- partial("_events2023") %>
+                    </div>
+					<div class="tab-pane container" id="year2022">
+                        <%- partial("_events2022") %>
+                    </div>
+				    <div class="tab-pane container" id="year2021">
+                        <%- partial("_events2021") %>
+                    </div>
+                    <div class="tab-pane container" id="year2020">
                         <%- partial("_events2020") %>
                     </div>
                     <div class="tab-pane container" id="year2019">
