@@ -1,1002 +1,1217 @@
 <!doctype html>
 <html lang="en">
 <head>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/main.css">
-
-
-    <title>.NET User Group Dortmund "Do.NET"</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="ROBOTS" content="INDEX, FOLLOW"/>
-    <meta name="RESOURCE-TYPE" content="DOCUMENT"/>
-    <meta name="DISTRIBUTION" content="GLOBAL"/>
-    <meta name="REVISIT-AFTER" content="1 DAYS"/>
-    <meta id="MetaDescription" name="DESCRIPTION" content=".NET User Group Dortmund Do.NET"/>
-    <meta id="MetaKeywords" name="KEYWORDS"
-          content="Dortmund,Dortmunder,do-dotnet,Do-DotNet,do,.net,dotnet,user,group,usergroup,tip,trick,fun,WF,WCF,Dortmund,nrw,nordrhein-westfalen,download,software,framework,code,c#,vb,entwicklung,development,application,iis,webservice,moss,2007,2008,leo,paul,mizel"/>
-    <meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2008 by Do-DotNet"/>
-    <meta id="MetaAuthor" name="AUTHOR" content="Paul Mizel"/>
-
-    <!-- favicons
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/main.css">
+<title>.NET User Group Dortmund "Do.NET"</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="ROBOTS" content="INDEX, FOLLOW"/>
+<meta name="RESOURCE-TYPE" content="DOCUMENT"/>
+<meta name="DISTRIBUTION" content="GLOBAL"/>
+<meta name="REVISIT-AFTER" content="1 DAYS"/>
+<meta id="MetaDescription" name="DESCRIPTION" content=".NET User Group Dortmund Do.NET"/>
+<meta id="MetaKeywords" name="KEYWORDS"
+content="Dortmund,Dortmunder,do-dotnet,Do-DotNet,do,.net,dotnet,user,group,usergroup,tip,trick,fun,WF,WCF,Dortmund,nrw,nordrhein-westfalen,download,software,framework,code,c#,vb,entwicklung,development,application,iis,webservice,moss,2007,2008,leo,paul,mizel"/>
+<meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2008 by Do-DotNet"/>
+<meta id="MetaAuthor" name="AUTHOR" content="Paul Mizel"/>
+<!-- favicons
 ================================================== -->
-    <meta name="theme-color" content="#b4dc2d">
-
-    <link rel="shortcut icon" href="images/ico/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/ico/favicon.ico" type="image/x-icon">
-
-    <link rel="apple-touch-icon" sizes="57x57"
-          href="images/ico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60"
-          href="images/ico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72"
-          href="images/ico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76"
-          href="images/ico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114"
-          href="images/ico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120"
-          href="images/ico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144"
-          href="images/ico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152"
-          href="images/ico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180"
-          href="images/ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"
-          href="images/ico/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32"
-          href="images/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96"
-          href="images/ico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16"
-          href="images/ico/favicon-16x16.png">
-
+<meta name="theme-color" content="#b4dc2d">
+<link rel="shortcut icon" href="images/ico/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/ico/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57"
+href="images/ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60"
+href="images/ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72"
+href="images/ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76"
+href="images/ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114"
+href="images/ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120"
+href="images/ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144"
+href="images/ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152"
+href="images/ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180"
+href="images/ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"
+href="images/ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32"
+href="images/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96"
+href="images/ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16"
+href="images/ico/favicon-16x16.png">
 </head>
-
 <body>
-
-
-    <header class="header bg">
-        <div class="container text-white">
-            <div class="row">
-                <div class="col-sm-4 align-self-center text-left">
-                    <h6>Estd 2008</h6>
-                </div>
-                <div class="col-sm-4 col-12 align-self-center box-1 text-center">
-                    <a class="navbar-brand" href="index.html"><img src="images/header-logo.png" alt="logo"></a>
-                </div>
-                <div class="col-sm-4 align-self-center text-right">
-                    <div class="social-icons">
-                        <a href="https://www.meetup.com/de-DE/NET-Dortmund-Meetup" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
-                        <a href="https://www.xing.com/communities/groups/punkt-net-user-group-dortmund-23e1-1012640" target="_blank"><i class="fa fa-xing" aria-hidden="true"></i></a>
-                        <a href="https://www.facebook.com/groups/123526311063752/?ref=bookmarks" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                        <a href="https://www.twitter.com/PaulMizel" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="http://github.com/doDotNET" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--/row-->
-        </div>
-        <!--container-->
-    </header>
-	
-	<span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
-	
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link active" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#about">Über uns</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#sponsors">Sponsoren</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#download">Download</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="impress.html">Impressum</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--container end-->
-    </nav>
-
+<header class="header bg">
+<div class="container text-white">
+<div class="row">
+<div class="col-sm-4 align-self-center text-left">
+<h6>Estd 2008</h6>
+</div>
+<div class="col-sm-4 col-12 align-self-center box-1 text-center">
+<a class="navbar-brand" href="index.html"><img src="images/header-logo.png" alt="logo"></a>
+</div>
+<div class="col-sm-4 align-self-center text-right">
+<div class="social-icons">
+<a href="https://www.meetup.com/de-DE/NET-Dortmund-Meetup" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+<a href="https://www.xing.com/communities/groups/punkt-net-user-group-dortmund-23e1-1012640" target="_blank"><i class="fa fa-xing" aria-hidden="true"></i></a>
+<a href="https://www.facebook.com/groups/123526311063752/?ref=bookmarks" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+<a href="https://www.twitter.com/PaulMizel" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a href="http://github.com/doDotNET" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+</div>
+</div>
+</div>
+<!--/row-->
+</div>
+<!--container-->
+</header>
+<span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+<nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+<div class="container">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar1">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link active" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/#events">Events</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/#about">Über uns</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/#sponsors">Sponsoren</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/#download">Download</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="impress.html">Impressum</a>
+</li>
+</ul>
+</div>
+</div>
+<!--container end-->
+</nav>
 <section class="section-top">
-    <div class="jumbotron d-flex align-items-center">
-        <div class="gradient"></div>
-        <div class="container-fluid content">
-            <h1 data-aos="fade-up" data-aos-delay="100">Willkommen zur Do.NET</h1>
-            <h2 data-aos="fade-up" data-aos-delay="300">Die .NET User Group Dortmund</h2>
-            <h4 data-aos="fade-up" data-aos-delay="500">Wir stehen für persönlichen Wissensaustausch und Bildung</h4>
-            <p data-aos="fade-up" data-aos-delay="700"><a href="/#events" class="btn btn-success">Mehr lesen</a></p>
-        </div>
-        <!--container-fluid end-->
-    </div>
+<div class="jumbotron d-flex align-items-center">
+<div class="gradient"></div>
+<div class="container-fluid content">
+<h1 data-aos="fade-up" data-aos-delay="100">Willkommen zur Do.NET</h1>
+<h2 data-aos="fade-up" data-aos-delay="300">Die .NET User Group Dortmund</h2>
+<h4 data-aos="fade-up" data-aos-delay="500">Wir stehen für persönlichen Wissensaustausch und Bildung</h4>
+<p data-aos="fade-up" data-aos-delay="700"><a href="/#events" class="btn btn-success">Mehr lesen</a></p>
+</div>
+<!--container-fluid end-->
+</div>
 </section>
 <!-- About Section Start -->
 <div id="events" class="main-section">
-    <div class="container">
-        <h2>Events</h2>
-        <div class="row" style="margin-right: 0; margin-left: 0" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-md-12">
-                Unsere Treffen sind kostenlos und jeder ist herzlich willkommen.
-                Alle weiteren Informationen kommen über die Gruppen bei XING, FB bzw. stehen auf der WebSite
-                do-dotnet.de.
-                <br><br>
-                Die Treffen finden jeden Monat immer in der ersten Woche am Mittwoch statt.*
-            </div>
-            <div class="col-md-12">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-6">
-                        Termine importieren
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a class="btn btn-success form-control" href="download/NET_User_Group_Dortmund_Treffen.ics" target="_blank">Download</a>
-                    </div>
-                </div>
-            </div>
-            <!--<div class="col-md-12">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-6">
-                        Weitere Events
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="http://basta.net"
-                           target="_blank">
-                            <img src="images/BASTA_Spring 2019.jpg" />
-                        </a>
-                    </div>
-                </div>
-            </div>-->
-            <div class="col-md-12">
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#year2020">2020</a>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link" data-toggle="tab" href="#year2019">2019</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#year2018">2018</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#year2017">2017</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#year2016">2016</a>
-                    </li>
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane active container" id="year2020">
-                        <div class="row">
-            <div class="col-md-2">
-                Mi. 08.01
-            </div>
-            <div class="col-md-10">
-                Einführung in SapphireDb - Alternative zu Firebase DB für ASP.NET Core mit Morris
-            </div>
-            <div class="col-md-2">
-                Mi. 05.02
-            </div>
-            <div class="col-md-10">
-                ASP.NET Core und Entity Framework Core Best Practices mit Sebastian Kleinschmager <a href="download/presentations/aspnetcore-bestpractices-dodotnet.zip" target="_blank"><i class="fa fa-download pull-right"></i></a>
-            </div>
-            <div class="col-md-2">
-                Mi. 04.03
-            </div>
-            <div class="col-md-10">
-                Erfahrungsbericht : Code Katas für mehr Clean Code mit Özgür Ergel
-            </div>
-            <div class="col-md-2">
-                Mi. 08.04
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 06.05
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 03.06
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 01.07
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 05.08
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 02.09
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 07.10
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 04.11
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
-            <div class="col-md-2">
-                Mi. 02.12
-            </div>
-            <div class="col-md-10">
-				Fällt wegen COVID-19 aus
-            </div>
+<div class="container">
+<h2>Events</h2>
+<div class="row" style="margin-right: 0; margin-left: 0;" data-aos="fade-up" data-aos-delay="300">
+<div class="col-md-12">
+Unsere Treffen sind kostenlos und jeder ist herzlich willkommen.
+Alle weiteren Informationen kommen über die Gruppen bei XING, FB bzw. stehen auf der WebSite
+do-dotnet.de.
+<br/><br/>
+Die Treffen finden jeden Monat immer in der ersten Woche am Mittwoch statt.*
 </div>
-
+<div class="col-md-12">
+<br/>
+<h3>Corona Pause (03-2020 bis 11-2022)...</h3>
+hat uns zwar ausgebremst, aber nun geht es wieder los.
+<br/><br/>
+<b>CALL FOR SPEAKERS</b>
+<br/><br/>
+Da wir in der Corona Zeit vermutlich alle etwas berichtenswertes erlebt haben, möchte wir euch ermutigen, auch mal einen Vortrag zu halten,
+Die Gruppen-Treffen leben vom miteinander. Und sie sind ein sicherer Raum, um das Reden vor Gruppen zu üben. Was spricht also dagegen, dass Ihr euch traut und es auch mal versucht? Wir helfen euch auch gerne dabei.
+<br/><br/>
+Wir freuen uns über jeden Sprecher, der .NET Dortmund Meetup mit einem 90-120-minütigem Vortrag unterstützt. Auch Themenvorschläge für die Vorträge sind gerne gesehen.
+<br/><br/>
+Sprich uns einfach an, oder schreib uns eine E-Mail.
+</div>
+<div class="col-md-12">
+<div class="row mt-3">
+<div class="col-md-3 col-6">
+Termine importieren
+</div>
+<div class="col-md-3 col-6">
+<a class="btn btn-success form-control" href="download/NET_User_Group_Dortmund_Treffen.ics"
+target="_blank">Download</a>
+</div>
+</div>
+</div>
+<!--<div class="col-md-12">
+<div class="row mt-3">
+<div class="col-md-3 col-6">
+Weitere Events
+</div>
+<div class="col-md-3 col-6">
+<a href="http://basta.net"
+target="_blank">
+<img src="images/BASTA_Spring 2019.jpg" />
+</a>
+</div>
+</div>
+</div>-->
+<div class="col-md-12">
+<!-- Nav tabs -->
+<ul class="nav nav-tabs">
+<li class="nav-item">
+<a class="nav-link active" data-toggle="tab" href="#year2023">2023</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#year2022">2022</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#year2021">2021</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#year2020">2020</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " data-toggle="tab" href="#year2019">2019</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#year2018">2018</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#year2017">2017</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#year2016">2016</a>
+</li>
+</ul>
+<!-- Tab panes -->
+<div class="tab-content">
+<div class="tab-pane active container" id="year2023">
+<div class="row">
+<div class="col-md-2">
+<b>2022 Dez.</b><br>Mi. 07.12
+</div>
+<div class="col-md-10">
+Wir treffen uns wieder!<br/>Ein "Restart" der .net User Group Dortmund.
+</div>
+<div class="col-md-12">
+<hr/>
+</div>
+<div class="col-md-2">
+Mi. 11.01
+</div>
+<div class="col-md-10">
+C# 11 mit Martin Pöpel
+</div>
+<div class="col-md-2">
+Mi. 01.02
+</div>
+<div class="col-md-10">
+ASP.NET Core und Entity Framework mit Holger Schwichtenberg
+</div>
+<div class="col-md-2">
+Mi. 01.03
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 05.04
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 03.05
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 07.06
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 05.07
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 02.08
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 06.09
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 04.10
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 08.11
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+<div class="col-md-2">
+Mi. 06.12
+</div>
+<div class="col-md-10">
+ungeplant
+</div>
+</div>
 <!--Blazor, die Hoffnung für JavaScript-Hasser: Single-Page-Web-Apps endlich mit .NET und C#! mit Holger Schwichtenberg-->
 <!--Einführung in OpenValidation mit Ilja Leyberman-->
-                    </div>
-                    <div class="tab-pane container" id="year2019">
-                        <div class="row">
-            <div class="col-md-2">
-                Mi. 09.01
-            </div>
-            <div class="col-md-10">
-                ausgefallen
-            </div>
-            <div class="col-md-2">
-                Mi. 06.02
-            </div>
-            <div class="col-md-10">
-                Asynchronous messaging with Rebus mit Mogens (EN) <a href="download/presentations/asynchronous-messaging-with-rebus.pdf" target="_blank"><i class="fa fa-download pull-right"></i></a>
-            </div>
-            <div class="col-md-2">
-                Mi. 06.03
-            </div>
-            <div class="col-md-10">
-                Software meets reality Part I mit Christof Konstantinopoulos
-            </div>
-            <div class="col-md-2">
-                Mi. 03.04
-            </div>
-            <div class="col-md-10">
-                Einführung in Rust und WebAssembly mit Fabian und Paul
-            </div>
-            <div class="col-md-2">
-                Mi. 08.05
-            </div>
-            <div class="col-md-10">
-                Railway Oriented Programming mit Patrick Drechsler
-            </div>
-            <div class="col-md-2">
-                Mi. 12.06
-            </div>
-            <div class="col-md-10">
-                Software meets reality Part II mit Christof Konstantinopoulos
-            </div>
-            <div class="col-md-2">
-                Mi. 03.07
-            </div>
-            <div class="col-md-10">
-                Einführung in PowerBI mit Philipp Lenz
-            </div>
-            <div class="col-md-2">
-                Mi. 07.08
-            </div>
-            <div class="col-md-10">
-                ausgefallen
-            </div>
-            <div class="col-md-2">
-                Mi. 04.09
-            </div>
-            <div class="col-md-10">
-                Dependency Injection .NET with Steven van Deursen <a href="download/presentations/di-what-changed-redistributable.pptx" target="_blank"><i class="fa fa-download pull-right"></i></a>
-            </div>
-            <div class="col-md-2">
-                Mi. 02.10
-            </div>
-            <div class="col-md-10">
-                Einführung in Docker mit Peter Biermann <a href="download/presentations/docker-fuer-dotnedders.pdf" target="_blank"><i class="fa fa-download pull-right"></i></a>
-            </div>
-            <div class="col-md-2">
-                Mi. 06.11
-            </div>
-            <div class="col-md-10">
-                Einführung in Unity Teil I mit Fabian und Paul
-            </div>
-            <div class="col-md-2">
-                Mi. 04.12
-            </div>
-            <div class="col-md-10">
-                Einführung in Unity Teil II mit Paul
-            </div>
 </div>
-
-                    </div>
-                    <div class="tab-pane container" id="year2018">
-
-                        <div class="row">
-    <div class="col-md-2">
-        Mi. 10.01
-    </div>
-    <div class="col-md-10">
-        Was bringen C# 7.x/8.0 mit Holger
-    </div>
-    <div class="col-md-2">
-        Mi. 07.02
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 14.03
-    </div>
-    <div class="col-md-10">
-        Blockchain unter .NET mit Paul
-    </div>
-    <div class="col-md-2">
-        Mi. 04.04
-    </div>
-    <div class="col-md-10">
-        Einführung in Puppeteer mit Paul
-    </div>
-    <div class="col-md-2">
-        Mi. 02.05
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 06.06
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 04.07
-    </div>
-    <div class="col-md-10">
-        Einführung in Roslyn mit Alexander
-    </div>
-    <div class="col-md-2">
-        Mi. 01.08
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 05.09
-    </div>
-    <div class="col-md-10">
-        Einführung in TPL mit Dirk
-    </div>
-    <div class="col-md-2">
-        Mi. 10.10
-    </div>
-    <div class="col-md-10">
-        Einführung in Smart-Contracts mit Fabian
-    </div>
-    <div class="col-md-2">
-        Mi. 07.11
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 12.12
-    </div>
-    <div class="col-md-10">
-        Build Automation mit Alex
-    </div>
+<div class="tab-pane container" id="year2022">
+<div class="row">
+<div class="col-md-2">
+Mi. 05.01
 </div>
-
-                    </div>
-                    <div class="tab-pane container" id="year2017">
-
-                        <div class="row">
-    <div class="col-md-2">
-        Mi. 04.01
-    </div>
-    <div class="col-md-10">
-        Einführung in CommandQL mit Paul
-    </div>
-    <div class="col-md-2">
-        Mi. 01.02
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 01.03
-    </div>
-    <div class="col-md-10">
-        Einführung OzCode mit Fabian
-    </div>
-    <div class="col-md-2">
-        Mi. 05.04
-    </div>
-    <div class="col-md-10">
-        .NET Core mit Morris
-    </div>
-    <div class="col-md-2">
-        Mi. 03.05
-    </div>
-    <div class="col-md-10">
-        Einführung in GraphQL mit Fabian
-    </div>
-    <div class="col-md-2">
-        Mi. 07.06
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 05.07
-    </div>
-    <div class="col-md-10">
-        Einführung TPL DataFlow mit Christian
-    </div>
-    <div class="col-md-2">
-        Mi. 02.08
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 06.09
-    </div>
-    <div class="col-md-10">
-        Einführung in Angular4 mit Morris
-    </div>
-    <div class="col-md-2">
-        Mi. 04.10
-    </div>
-    <div class="col-md-10">
-        Einführung in Portainer / Kaitmatic mit Andre
-    </div>
-    <div class="col-md-2">
-        Mi. 08.11
-    </div>
-    <div class="col-md-10">
-        Einführung in TFS / GIT und GitFlow mit Paul
-    </div>
-    <div class="col-md-2">
-        Mi. 06.12
-    </div>
-    <div class="col-md-10">
-        Retrospektive als Verbesserungsmethode mit Paul
-    </div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
 </div>
-
-
-                    </div>
-                    <div class="tab-pane container" id="year2016">
-
-                        <div class="row">
-    <div class="col-md-2">
-        Mi. 13.01
-    </div>
-    <div class="col-md-10">
-        Einführung in ContentMonkee mit Paul
-    </div>
-    <div class="col-md-2">
-        Mi. 03.02
-    </div>
-    <div class="col-md-10">
-        Einführung in PowerBI mit Paul
-    </div>
-    <div class="col-md-2">
-        Mi. 02.03
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 06.04
-    </div>
-    <div class="col-md-10">
-        Einführung in Swagger mit Andre
-    </div>
-    <div class="col-md-2">
-        Mi. 04.05
-    </div>
-    <div class="col-md-10">
-        Einführung in MongoDB .NET mit Paul
-    </div>
-    <div class="col-md-2">
-        Mi. 01.06
-    </div>
-    <div class="col-md-10">
-        Einführung in MicroServices mit Maik
-    </div>
-    <div class="col-md-2">
-        Mi. 06.07
-    </div>
-    <div class="col-md-10">
-        Echte Cross-Plattform-Apps mit Angular2 mit Christian
-    </div>
-    <div class="col-md-2">
-        Mi. 03.08
-    </div>
-    <div class="col-md-10">
-        Einführung in das PRIG mit Alexander
-    </div>
-    <div class="col-md-2">
-        Mi. 06.09
-    </div>
-    <div class="col-md-10">
-        MS Bot Framework Part I mit Marcus
-    </div>
-    <div class="col-md-2">
-        Mi. 05.10
-    </div>
-    <div class="col-md-10">
-        MS Bot Framework Part II mit Marcus
-    </div>
-    <div class="col-md-2">
-        Mi. 02.11
-    </div>
-    <div class="col-md-10">
-        ausgefallen
-    </div>
-    <div class="col-md-2">
-        Mi. 07.12
-    </div>
-    <div class="col-md-10">
-        Einführung in CI/CD in VSO mit Paul
-    </div>
+<div class="col-md-2">
+Mi. 02.02
 </div>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 02.03
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 06.04
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 04.05
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 01.06
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 06.07
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 03.08
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 07.09
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 05.10
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 02.11
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 07.12
+</div>
+<div class="col-md-10">
+Wir treffen uns wieder! - Ein "Restart" der .net User Group Dortmund.
+</div>
+</div>
+<!--Blazor, die Hoffnung für JavaScript-Hasser: Single-Page-Web-Apps endlich mit .NET und C#! mit Holger Schwichtenberg-->
+<!--Einführung in OpenValidation mit Ilja Leyberman-->
+</div>
+<div class="tab-pane container" id="year2021">
+<div class="row">
+<div class="col-md-2">
+Mi. 0x.01
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.02
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.03
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.04
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.05
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.06
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.07
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.08
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.09
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.10
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.11
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 0x.12
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+</div>
+<!--Blazor, die Hoffnung für JavaScript-Hasser: Single-Page-Web-Apps endlich mit .NET und C#! mit Holger Schwichtenberg-->
+<!--Einführung in OpenValidation mit Ilja Leyberman-->
+</div>
+<div class="tab-pane container" id="year2020">
+<div class="row">
+<div class="col-md-2">
+Mi. 08.01
+</div>
+<div class="col-md-10">
+Einführung in SapphireDb - Alternative zu Firebase DB für ASP.NET Core mit Morris
+</div>
+<div class="col-md-2">
+Mi. 05.02
+</div>
+<div class="col-md-10">
+ASP.NET Core und Entity Framework Core Best Practices mit Sebastian Kleinschmager <a href="download/presentations/aspnetcore-bestpractices-dodotnet.zip" target="_blank"><i class="fa fa-download pull-right"></i></a>
+</div>
+<div class="col-md-2">
+Mi. 04.03
+</div>
+<div class="col-md-10">
+Erfahrungsbericht : Code Katas für mehr Clean Code mit Özgür Ergel
+</div>
+<div class="col-md-2">
+Mi. 08.04
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 06.05
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 03.06
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 01.07
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 05.08
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 02.09
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 07.10
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 04.11
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+<div class="col-md-2">
+Mi. 02.12
+</div>
+<div class="col-md-10">
+Fällt wegen COVID-19 aus
+</div>
+</div>
+<!--Blazor, die Hoffnung für JavaScript-Hasser: Single-Page-Web-Apps endlich mit .NET und C#! mit Holger Schwichtenberg-->
+<!--Einführung in OpenValidation mit Ilja Leyberman-->
+</div>
+<div class="tab-pane container" id="year2019">
+<div class="row">
+<div class="col-md-2">
+Mi. 09.01
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 06.02
+</div>
+<div class="col-md-10">
+Asynchronous messaging with Rebus mit Mogens (EN) <a href="download/presentations/asynchronous-messaging-with-rebus.pdf" target="_blank"><i class="fa fa-download pull-right"></i></a>
+</div>
+<div class="col-md-2">
+Mi. 06.03
+</div>
+<div class="col-md-10">
+Software meets reality Part I mit Christof Konstantinopoulos
+</div>
+<div class="col-md-2">
+Mi. 03.04
+</div>
+<div class="col-md-10">
+Einführung in Rust und WebAssembly mit Fabian und Paul
+</div>
+<div class="col-md-2">
+Mi. 08.05
+</div>
+<div class="col-md-10">
+Railway Oriented Programming mit Patrick Drechsler
+</div>
+<div class="col-md-2">
+Mi. 12.06
+</div>
+<div class="col-md-10">
+Software meets reality Part II mit Christof Konstantinopoulos
+</div>
+<div class="col-md-2">
+Mi. 03.07
+</div>
+<div class="col-md-10">
+Einführung in PowerBI mit Philipp Lenz
+</div>
+<div class="col-md-2">
+Mi. 07.08
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 04.09
+</div>
+<div class="col-md-10">
+Dependency Injection .NET with Steven van Deursen <a href="download/presentations/di-what-changed-redistributable.pptx" target="_blank"><i class="fa fa-download pull-right"></i></a>
+</div>
+<div class="col-md-2">
+Mi. 02.10
+</div>
+<div class="col-md-10">
+Einführung in Docker mit Peter Biermann <a href="download/presentations/docker-fuer-dotnedders.pdf" target="_blank"><i class="fa fa-download pull-right"></i></a>
+</div>
+<div class="col-md-2">
+Mi. 06.11
+</div>
+<div class="col-md-10">
+Einführung in Unity Teil I mit Fabian und Paul
+</div>
+<div class="col-md-2">
+Mi. 04.12
+</div>
+<div class="col-md-10">
+Einführung in Unity Teil II mit Paul
+</div>
+</div>
+</div>
+<div class="tab-pane container" id="year2018">
+<div class="row">
+<div class="col-md-2">
+Mi. 10.01
+</div>
+<div class="col-md-10">
+Was bringen C# 7.x/8.0 mit Holger
+</div>
+<div class="col-md-2">
+Mi. 07.02
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 14.03
+</div>
+<div class="col-md-10">
+Blockchain unter .NET mit Paul
+</div>
+<div class="col-md-2">
+Mi. 04.04
+</div>
+<div class="col-md-10">
+Einführung in Puppeteer mit Paul
+</div>
+<div class="col-md-2">
+Mi. 02.05
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 06.06
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 04.07
+</div>
+<div class="col-md-10">
+Einführung in Roslyn mit Alexander
+</div>
+<div class="col-md-2">
+Mi. 01.08
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 05.09
+</div>
+<div class="col-md-10">
+Einführung in TPL mit Dirk
+</div>
+<div class="col-md-2">
+Mi. 10.10
+</div>
+<div class="col-md-10">
+Einführung in Smart-Contracts mit Fabian
+</div>
+<div class="col-md-2">
+Mi. 07.11
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 12.12
+</div>
+<div class="col-md-10">
+Build Automation mit Alex
+</div>
+</div>
+</div>
+<div class="tab-pane container" id="year2017">
+<div class="row">
+<div class="col-md-2">
+Mi. 04.01
+</div>
+<div class="col-md-10">
+Einführung in CommandQL mit Paul
+</div>
+<div class="col-md-2">
+Mi. 01.02
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 01.03
+</div>
+<div class="col-md-10">
+Einführung OzCode mit Fabian
+</div>
+<div class="col-md-2">
+Mi. 05.04
+</div>
+<div class="col-md-10">
+.NET Core mit Morris
+</div>
+<div class="col-md-2">
+Mi. 03.05
+</div>
+<div class="col-md-10">
+Einführung in GraphQL mit Fabian
+</div>
+<div class="col-md-2">
+Mi. 07.06
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 05.07
+</div>
+<div class="col-md-10">
+Einführung TPL DataFlow mit Christian
+</div>
+<div class="col-md-2">
+Mi. 02.08
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 06.09
+</div>
+<div class="col-md-10">
+Einführung in Angular4 mit Morris
+</div>
+<div class="col-md-2">
+Mi. 04.10
+</div>
+<div class="col-md-10">
+Einführung in Portainer / Kaitmatic mit Andre
+</div>
+<div class="col-md-2">
+Mi. 08.11
+</div>
+<div class="col-md-10">
+Einführung in TFS / GIT und GitFlow mit Paul
+</div>
+<div class="col-md-2">
+Mi. 06.12
+</div>
+<div class="col-md-10">
+Retrospektive als Verbesserungsmethode mit Paul
+</div>
+</div>
+</div>
+<div class="tab-pane container" id="year2016">
+<div class="row">
+<div class="col-md-2">
+Mi. 13.01
+</div>
+<div class="col-md-10">
+Einführung in ContentMonkee mit Paul
+</div>
+<div class="col-md-2">
+Mi. 03.02
+</div>
+<div class="col-md-10">
+Einführung in PowerBI mit Paul
+</div>
+<div class="col-md-2">
+Mi. 02.03
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 06.04
+</div>
+<div class="col-md-10">
+Einführung in Swagger mit Andre
+</div>
+<div class="col-md-2">
+Mi. 04.05
+</div>
+<div class="col-md-10">
+Einführung in MongoDB .NET mit Paul
+</div>
+<div class="col-md-2">
+Mi. 01.06
+</div>
+<div class="col-md-10">
+Einführung in MicroServices mit Maik
+</div>
+<div class="col-md-2">
+Mi. 06.07
+</div>
+<div class="col-md-10">
+Echte Cross-Plattform-Apps mit Angular2 mit Christian
+</div>
+<div class="col-md-2">
+Mi. 03.08
+</div>
+<div class="col-md-10">
+Einführung in das PRIG mit Alexander
+</div>
+<div class="col-md-2">
+Mi. 06.09
+</div>
+<div class="col-md-10">
+MS Bot Framework Part I mit Marcus
+</div>
+<div class="col-md-2">
+Mi. 05.10
+</div>
+<div class="col-md-10">
+MS Bot Framework Part II mit Marcus
+</div>
+<div class="col-md-2">
+Mi. 02.11
+</div>
+<div class="col-md-10">
+ausgefallen
+</div>
+<div class="col-md-2">
+Mi. 07.12
+</div>
+<div class="col-md-10">
+Einführung in CI/CD in VSO mit Paul
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <!-- About Section End -->
-
 <div id="social">
-    <div class="container">
-        <h3 class="text-center">Bleiben Sie immer auf dem neusten Stand</h3>
-        <div class="row">
-            <div class="col-sm-2 col-2">
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                 <a href="https://www.meetup.com/de-DE/NET-Dortmund-Meetup" target="_blank">
-                     <i class="fa fa-meetup" aria-hidden="true"></i>
-                 </a>
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                <a href="https://www.xing.com/communities/groups/punkt-net-user-group-dortmund-23e1-1012640" target="_blank">
-                    <i class="fa fa-xing" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                <a href="https://www.facebook.com/groups/123526311063752/?ref=bookmarks" target="_blank">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                <a href="https://www.twitter.com/PaulMizel" target="_blank">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div class="col-sm-2 col-2">
-            </div>
-        </div>
-    </div>
+<div class="container">
+<h3 class="text-center">Bleiben Sie immer auf dem neusten Stand</h3>
+<div class="row">
+<div class="col-sm-2 col-2">
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.meetup.com/de-DE/NET-Dortmund-Meetup"
+target="_blank">
+<i class="fa fa-meetup" aria-hidden="true"></i>
+</a>
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.xing.com/communities/groups/punkt-net-user-group-dortmund-23e1-1012640"
+target="_blank">
+<i class="fa fa-xing" aria-hidden="true"></i>
+</a>
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.facebook.com/groups/123526311063752/?ref=bookmarks" target="_blank">
+<i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.twitter.com/PaulMizel" target="_blank">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+</div>
+<div class="col-sm-2 col-2">
+</div>
+</div>
+</div>
 </div>
 <!-- About Section Start -->
 <div id="about" class="main-section">
-    <div class="container">
-        <h2>About us</h2>
-        <div class="row" style="margin-right: 0; margin-left: 0" data-aos="fade-up" data-aos-delay="300">
-            <div>
-                <p>
-                    Die Dortmunder .NET User Group ist eine User Group in Dortmund mit monatlichen Treffen. Diese Gruppe
-                    bringt professionelle Entwickler, Architekten, Studenten, Manager, Anfänger und Enthusiasten zum
-                    Thema .NET in der Region Dortmund seit 14.01.2008 zusammen.
-                    <br><br>
-                    Dahinter steckt die Idee zu kollaborieren, Vorträge zu halten, Wissen, Ideen und Gedanken
-                    auszutauschen, Probleme zu diskutieren, Meinungen kund zu tun, neue Projekte anzukündigen,
-                    Freundschaften zu schliessen, entwickeln oder einfach nur das Treffen von Menschen mit dem gemeinsamen
-                    Interesse Technologien.
-                    <br><br>
-                    Das "Do" in Do-DotNet steht nicht nur für das Dortmunder KFZ-Kennzeichen,
-                    sondern auch als Aufforderung für jeden, etwas im Bereich der .Net-Entwicklung zu tun!
-                    Sei es als Anfänger im .Net-Bereich, für Berufstätige im Microsoft-Umfeld oder für jeden
-                    .Net-Experten! Do .NET!
-
-                <h3>Ziele der .NET User Group Dortmund:</h3>
-
-                <ul>
-                    <li>Austausch von Wissen und Erfahrungen mit dem Schwerpunkt .NET
-                    </li>
-                    <li>Gegenseitige Unterstützung bei technologischen Fragen rund um das Thema .NET
-                    </li>
-                    <li>Vorstellung und Erlernen aktueller und neuer Technologien
-                    </li>
-                    <li>Fachgespräche mit Gleichgesinnten
-                    </li>
-                    <li>Knüpfen von interessanten Kontakten</li>
-                </ul>
-
-                <h3>Zielgruppe der .NET User Group Dortmund:</h3>
-
-                <ul>
-                    <li>Studenten
-                    </li>
-                    <li>Entwickler
-                    </li>
-                    <li>Architekten
-                    </li>
-                    <li>Manager
-                    </li>
-                    <li>Anfänger und Enthusiasten
-                    </li>
-                    <li>Interessierte an Themen rund um IT</li>
-                </ul>
-
-                <h3>Betreiber der .NET User Group Dortmund:</h3>
-
-                <div class="row">
-                    <div class="col-md-3 col-6 text-center">
-                        Paul Mizel
-                        <br>
-                        <a href="https://www.xing.com/profile/Paul_Mizel" target="_blank">
-                            <img src="images/xing_btn.png" alt="Paul Mizel">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6 text-center">
-                        Fabian Raetz
-                        <br>
-                        <a href="https://www.xing.com/profile/Fabian_Raetz" target="_blank">
-                            <img src="images/xing_btn.png" alt="Fabian Raetz">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6 text-center">
-                        Christof Konstantinopoulos
-                        <br>
-                        <a href="https://www.xing.com/profile/Christof_Konstantinopoulos" target="_blank">
-                            <img src="images/xing_btn.png" alt="Christof Konstantinopoulos">
-                        </a>
-                    </div>
-                </div>
-                </p>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<h2>About us</h2>
+<div class="row" style="margin-right: 0; margin-left: 0;" data-aos="fade-up" data-aos-delay="300">
+<div>
+<p>
+Die Dortmunder .NET User Group ist eine User Group in Dortmund mit monatlichen Treffen. Diese Gruppe
+bringt professionelle Entwickler, Architekten, Studenten, Manager, Anfänger und Enthusiasten zum
+Thema .NET in der Region Dortmund seit 14.01.2008 zusammen.
+<br/><br/>
+Dahinter steckt die Idee zu kollaborieren, Vorträge zu halten, Wissen, Ideen und Gedanken
+auszutauschen, Probleme zu diskutieren, Meinungen kund zu tun, neue Projekte anzukündigen,
+Freundschaften zu schliessen, entwickeln oder einfach nur das Treffen von Menschen mit dem gemeinsamen
+Interesse Technologien.
+<br/><br/>
+Das "Do" in Do-DotNet steht nicht nur für das Dortmunder KFZ-Kennzeichen,
+sondern auch als Aufforderung für jeden, etwas im Bereich der .Net-Entwicklung zu tun!
+Sei es als Anfänger im .Net-Bereich, für Berufstätige im Microsoft-Umfeld oder für jeden
+.Net-Experten! Do .NET!
+<h3>Ziele der .NET User Group Dortmund:</h3>
+<ul>
+<li>Austausch von Wissen und Erfahrungen mit dem Schwerpunkt .NET
+</li>
+<li>Gegenseitige Unterstützung bei technologischen Fragen rund um das Thema .NET
+</li>
+<li>Vorstellung und Erlernen aktueller und neuer Technologien
+</li>
+<li>Fachgespräche mit Gleichgesinnten
+</li>
+<li>Knüpfen von interessanten Kontakten</li>
+</ul>
+<h3>Zielgruppe der .NET User Group Dortmund:</h3>
+<ul>
+<li>Studenten
+</li>
+<li>Entwickler
+</li>
+<li>Architekten
+</li>
+<li>Manager
+</li>
+<li>Anfänger und Enthusiasten
+</li>
+<li>Interessierte an Themen rund um IT</li>
+</ul>
+<h3>Betreiber der .NET User Group Dortmund:</h3>
+<div class="row">
+<div class="col-md-3 col-6 text-center">
+Paul Mizel
+<br/>
+<a href="https://www.xing.com/profile/Paul_Mizel" target="_blank">
+<img src="images/xing_btn.png" alt="Paul Mizel"/>
+</a>
+</div>
+<div class="col-md-3 col-6 text-center">
+Fabian Raetz
+<br/>
+<a href="https://www.xing.com/profile/Fabian_Raetz" target="_blank">
+<img src="images/xing_btn.png" alt="Fabian Raetz"/>
+</a>
+</div>
+<div class="col-md-3 col-6 text-center">
+Christof Konstantinopoulos
+<br/>
+<a href="https://www.xing.com/profile/Christof_Konstantinopoulos" target="_blank">
+<img src="images/xing_btn.png" alt="Christof Konstantinopoulos"/>
+</a>
+</div>
+</div>
+</p>
+</div>
+</div>
+</div>
 </div>
 <!-- About Section End -->
 <!-- Sponsors Section Start -->
 <div id="sponsors" class="main-section">
-    <div class="container">
-        <h2>Sponsors</h2>
-        <div class="row" style="margin-right: 0; margin-left: 0" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-md-3 col-6">
-                <a href="http://adesso.de" target="_blank">
-                    <img src="images/adesso.png" alt="adesso ag" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="http://asure.network" target="_blank">
-                    <img src="images/asure.png" alt="asure network" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="http://brockhaus-ag.de" target="_blank">
-                <img src="images/brockhaus-ag.png" alt="brockhaus-ag" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="https://www.echtnice.com" target="_blank">
-                    <img src="images/echtnice.png" alt="echtnice" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="https://www.eth.ruhr/" target="_blank">
-                <img src="images/ethruhr.jpg" alt="eth.ruhr" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="http://fh-dortmund.de" target="_blank">
-                <img src="images/fh-dortmund.png" alt="fh-dortmund" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="http://jetbrains.com" target="_blank">
-                    <img src="images/jetbrains.png" alt="jetbrains" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="#" target="_blank">
-                <img src="images/maximago.png" alt="maximago" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="#" target="_blank">
-                    <img src="images/megla.png" alt="megla" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="https://www.red-gate.com" target="_blank">
-                    <img src="images/redgate.png" alt="redgate" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="https://www.rebus.fm" target="_blank">
-                    <img src="images/rebus.fm.png" alt="rebus.fm" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="https://www.rent24.com" target="_blank">
-                    <img src="images/rent24.png" alt="rent24" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="https://www.tu-dortmund.de" target="_blank">
-                    <img src="images/tu-dortmund.png" alt="tu-dortmund" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="http://it-visions.de" target="_blank">
-                    <img src="images/it-visions.png" alt="it-visions" class="image img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <a href="https://www.5minds.de" target="_blank">
-                    <img src="images/5minds.png" alt="5 minds" class="image img-fluid">
-                </a>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<h2>Sponsors</h2>
+<div class="row" style="margin-right: 0; margin-left: 0;" data-aos="fade-up" data-aos-delay="300">
+<div class="col-md-3 col-6">
+<a href="http://adesso.de" target="_blank">
+<img src="images/adesso.png" alt="adesso ag" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="http://asure.network" target="_blank">
+<img src="images/asure.png" alt="asure network" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="http://brockhaus-ag.de" target="_blank">
+<img src="images/brockhaus-ag.png" alt="brockhaus-ag" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="https://www.echtnice.com" target="_blank">
+<img src="images/echtnice.png" alt="echtnice" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="https://www.eth.ruhr/" target="_blank">
+<img src="images/ethruhr.jpg" alt="eth.ruhr" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="http://fh-dortmund.de" target="_blank">
+<img src="images/fh-dortmund.png" alt="fh-dortmund" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="http://jetbrains.com" target="_blank">
+<img src="images/jetbrains.png" alt="jetbrains" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="#" target="_blank">
+<img src="images/maximago.png" alt="maximago" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="#" target="_blank">
+<img src="images/megla.png" alt="megla" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="https://www.red-gate.com" target="_blank">
+<img src="images/redgate.png" alt="redgate" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="https://www.rebus.fm" target="_blank">
+<img src="images/rebus.fm.png" alt="rebus.fm" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="https://www.rent24.com" target="_blank">
+<img src="images/rent24.png" alt="rent24" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="https://www.tu-dortmund.de" target="_blank">
+<img src="images/tu-dortmund.png" alt="tu-dortmund" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="http://it-visions.de" target="_blank">
+<img src="images/it-visions.png" alt="it-visions" class="image img-fluid" />
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="https://www.5minds.de" target="_blank">
+<img src="images/5minds.png" alt="5 minds" class="image img-fluid" />
+</a>
+</div>
+</div>
+</div>
 </div>
 <!-- Sponsors Section End -->
 <!-- Download Section Start -->
 <div id="download" class="main-section">
-    <div class="container">
-        <h2>Download</h2>
-        <div class="row" style="margin-right: 0; margin-left: 0" data-aos="fade-up" data-aos-delay="300">
-            <div>
-                <p>
-                    An dieser Stelle findet ihr Logos und Unterlagen von und für die .NET UG Dortmund.
-                </p>
-                <h3>Templates</h3>
-
-                <div class="row mt-3">
-                    <div class="col-md-3 col-6">
-                        Powerpoint Master
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a class="btn btn-success form-control" href="download/do-dotnet template.potx" target="_blank">Download</a>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-md-3 col-6">
-                        Powerpoint Keynote
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a class="btn btn-success form-control" href="download/do-dotnet keynote.pptx" target="_blank">Download</a>
-                    </div>
-                </div>
-
-                <h3>Presskit</h3>
-
-                <div class="row mt-3">
-                    <div class="col-md-3 col-6">
-                        Do.NET Logo
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a class="btn btn-success form-control" href="download/do-dotnet logo.zip" target="_blank">Download</a>
-                    </div>
-                </div>
-
-
-                <h3>Wallpaper</h3>
-
-                <div class="row">
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-greenline.png" target="_blank">
-                            <img src="images/bg-greenline-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-greenwhite.png" target="_blank">
-                            <img src="images/bg-greenwhite-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-head.png" target="_blank">
-                            <img src="images/bg-head-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-leo.png" target="_blank">
-                            <img src="images/bg-leo-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-less.png" target="_blank">
-                            <img src="images/bg-less-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-red.png" target="_blank">
-                            <img src="images/bg-red-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-wallpaper.png" target="_blank">
-                            <img src="images/bg-wallpaper-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <a href="images/bg-white.png" target="_blank">
-                            <img src="images/bg-white-m.png" alt="asure" class="image img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-
-                <div class="row mt-5"></div>
-
-
-            </div>
-        </div>
-    </div>
+<div class="container">
+<h2>Download</h2>
+<div class="row" style="margin-right: 0; margin-left: 0;" data-aos="fade-up" data-aos-delay="300">
+<div>
+<p>
+An dieser Stelle findet ihr Logos und Unterlagen von und für die .NET UG Dortmund.
+</p>
+<h3>Templates</h3>
+<div class="row mt-3">
+<div class="col-md-3 col-6">
+Powerpoint Master
+</div>
+<div class="col-md-3 col-6">
+<a class="btn btn-success form-control" href="download/do-dotnet template.potx"
+target="_blank">Download</a>
+</div>
+</div>
+<div class="row mt-3">
+<div class="col-md-3 col-6">
+Powerpoint Keynote
+</div>
+<div class="col-md-3 col-6">
+<a class="btn btn-success  form-control" href="download/do-dotnet keynote.pptx"
+target="_blank">Download</a>
+</div>
+</div>
+<h3>Presskit</h3>
+<div class="row mt-3">
+<div class="col-md-3 col-6">
+Do.NET Logo
+</div>
+<div class="col-md-3 col-6">
+<a class="btn btn-success  form-control" href="download/do-dotnet logo.zip"
+target="_blank">Download</a>
+</div>
+</div>
+<h3>Wallpaper</h3>
+<div class="row">
+<div class="col-md-3 col-6">
+<a href="images/bg-greenline.png" target="_blank">
+<img src="images/bg-greenline-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="images/bg-greenwhite.png" target="_blank">
+<img src="images/bg-greenwhite-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="images/bg-head.png" target="_blank">
+<img src="images/bg-head-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="images/bg-leo.png" target="_blank">
+<img src="images/bg-leo-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="images/bg-less.png" target="_blank">
+<img src="images/bg-less-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="images/bg-red.png" target="_blank">
+<img src="images/bg-red-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="images/bg-wallpaper.png" target="_blank">
+<img src="images/bg-wallpaper-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+<div class="col-md-3 col-6">
+<a href="images/bg-white.png" target="_blank">
+<img src="images/bg-white-m.png" alt="asure" class="image img-fluid"/>
+</a>
+</div>
+</div>
+<div class="row mt-5"></div>
+</div>
+</div>
+</div>
 </div>
 <!-- Download Section End -->
-
 <section class="section-footer">
-	<!-- Footer -->
-	<footer class="page-footer font-small stylish-color-dark">
-
-		<!-- Footer Links -->
-		<div class="container text-center text-md-left">
-
-			<!-- Grid row -->
-			<div class="row">
-
-				<!-- Grid column -->
-				<div class="col-lg-12 col-sm-12 mx-auto box-1">
-
-					<!-- Content -->
-					<a href="index.html"><img src="images/footer-logo.png" alt="footer-logo"></a>
-					<p class="justify">
-						Die Dortmunder .NET User Group ist eine User Group in Dortmund mit monatlichen Treffen.
-						Diese Gruppe bringt professionelle Entwickler, Architekten, Studenten, Manager, Anfänger
-						und Enthusiasten zum Thema .NET in der Region Dortmund zusammen.
-						<br/><br/>
-						Wer Lust und Zeit hat, besucht uns einfach auf einem unserer Treffen.
-						Es wird Wert auf ein unkompliziertes Miteinander gelegt, deshalb gibt es keine formale
-						Mitgliedschaft, die Teilnahme an den Treffen ist kostenlos und eine explizite Anmeldung zu den
-						Treffen ist auch nicht notwendig.
-						<br/><br/>
-						Alles nach dem Motto "Vorbeikommen, nette Leute treffen und Spaß haben".
-						<br/><br/>
-						P.s.: Wir sind immer auf der Suche nach Leuten die Lust haben auf die Softwareentwicklung.
-					</p>
-				</div>
-				<!-- Grid column -->
-
-				<hr class="clearfix w-100 d-md-none">
-			</div>
-		</div>
-
-		<div id="social">
-    <div class="container">
-        <h3 class="text-center">Bleiben Sie immer auf dem neusten Stand</h3>
-        <div class="row">
-            <div class="col-sm-2 col-2">
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                 <a href="https://www.meetup.com/de-DE/NET-Dortmund-Meetup"
-                     target="_blank">
-                     <i class="fa fa-meetup" aria-hidden="true"></i>
-                 </a>
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                <a href="https://www.xing.com/communities/groups/punkt-net-user-group-dortmund-23e1-1012640"
-                   target="_blank">
-                    <i class="fa fa-xing" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                <a href="https://www.facebook.com/groups/123526311063752/?ref=bookmarks" target="_blank">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-sm-2 col-2 text-center">
-                <a href="https://www.twitter.com/PaulMizel" target="_blank">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div class="col-sm-2 col-2">
-            </div>
-        </div>
-    </div>
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark">
+<!-- Footer Links -->
+<div class="container text-center text-md-left">
+<!-- Grid row -->
+<div class="row">
+<!-- Grid column -->
+<div class="col-lg-12 col-sm-12 mx-auto box-1">
+<!-- Content -->
+<a href="index.html"><img src="images/footer-logo.png" alt="footer-logo"></a>
+<p class="justify">
+Die Dortmunder .NET User Group ist eine User Group in Dortmund mit monatlichen Treffen.
+Diese Gruppe bringt professionelle Entwickler, Architekten, Studenten, Manager, Anfänger
+und Enthusiasten zum Thema .NET in der Region Dortmund zusammen.
+<br/><br/>
+Wer Lust und Zeit hat, besucht uns einfach auf einem unserer Treffen.
+Es wird Wert auf ein unkompliziertes Miteinander gelegt, deshalb gibt es keine formale
+Mitgliedschaft, die Teilnahme an den Treffen ist kostenlos und eine explizite Anmeldung zu den
+Treffen ist auch nicht notwendig.
+<br/><br/>
+Alles nach dem Motto "Vorbeikommen, nette Leute treffen und Spaß haben".
+<br/><br/>
+P.s.: Wir sind immer auf der Suche nach Leuten die Lust haben auf die Softwareentwicklung.
+</p>
 </div>
-
-		<!-- Copyright -->
-		<div class="footer-copyright text-center">
-			<div class="gradient"></div>
-			<p>© 2008-2019 do-dotnet.de</p>
-		</div>
-		<!-- Copyright -->
-
-	</footer>
-	<!-- Footer -->
+<!-- Grid column -->
+<hr class="clearfix w-100 d-md-none">
+</div>
+</div>
+<div id="social">
+<div class="container">
+<h3 class="text-center">Bleiben Sie immer auf dem neusten Stand</h3>
+<div class="row">
+<div class="col-sm-2 col-2">
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.meetup.com/de-DE/NET-Dortmund-Meetup"
+target="_blank">
+<i class="fa fa-meetup" aria-hidden="true"></i>
+</a>
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.xing.com/communities/groups/punkt-net-user-group-dortmund-23e1-1012640"
+target="_blank">
+<i class="fa fa-xing" aria-hidden="true"></i>
+</a>
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.facebook.com/groups/123526311063752/?ref=bookmarks" target="_blank">
+<i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+</div>
+<div class="col-sm-2 col-2 text-center">
+<a href="https://www.twitter.com/PaulMizel" target="_blank">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+</div>
+<div class="col-sm-2 col-2">
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright -->
+<div class="footer-copyright text-center">
+<div class="gradient"></div>
+<p>© 2008-2019 do-dotnet.de</p>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
 </section>
-
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script>
-    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+event.preventDefault();
+$(this).ekkoLightbox();
+});
 </script>
 <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
-    var pageTracker = _gat._getTracker("UA-4089060-1");
-    pageTracker._initData();
-    pageTracker._trackPageview();
+var pageTracker = _gat._getTracker("UA-4089060-1");
+pageTracker._initData();
+pageTracker._trackPageview();
 </script>
-
 </body>
-
 </html>
