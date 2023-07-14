@@ -1,0 +1,20 @@
+<h1>Ribbon theme for Shower</h1><p><a href="https://github.com/shower/ribbon/actions/workflows/test.yml"><img src="https://github.com/shower/ribbon/workflows/Test/badge.svg" alt="Test status"></a></p>
+<p><img src="pictures/canvas.png" alt="Ribbon screen shot"></p>
+<p>Default theme for the <a href="https://github.com/shower/shower/">Shower</a> presentation engine. Doesn’t include engine itself. <a href="https://shwr.me/shower/themes/ribbon/">See it in action</a>. Follow <a href="https://twitter.com/shower_me">@shower_me</a> for support and updates, <a href="https://github.com/shower/shower/issues/new">file an issue</a> if you have any.</p>
+<h2>Usage</h2><p>Get the Shower template where Ribbon is already included. Download the <a href="https://shwr.me/shower.zip">template archive</a> or create a slide deck via <a href="https://github.com/shower/cli">CLI tool</a>. It requires <a href="https://nodejs.org/">Node.js</a> installed.</p>
+<pre><code>npx @shower/cli create
+</code></pre>
+<p>Wait for the installation and choose the <strong>ribbon</strong> option in the wizard and you’re all set.</p>
+<h2>Features</h2><p>All theme’s features are demonstrated in the <a href="index.html">index.html</a> file, <a href="https://shwr.me/shower/themes/ribbon/">see it live</a>. Use it as a reference while building your presentation. See more detailed <a href="https://github.com/shower/shower/blob/main/docs/features.md">features overview</a>.</p>
+<h2>Ratios</h2><p>Ribbon theme supports any slide ratio you want. But it’s optimized for the most common ones: 16×9 and 4×3. It’s 16×9 by default, but you can change it by adjusting <code>--slide-ratio</code> property for <code>.shower</code>, <a href="https://github.com/shower/ribbon/blob/main/index.html#L10">see example</a> in <code>index.html</code>.</p>
+<h2>PDF</h2><p>You can export slides to PDF by printing it via built-in dialog in Chromium-based browsers or via CLI tool. See <a href="https://github.com/shower/shower/blob/main/docs/pdf.md">printing documentation</a> for more options.</p>
+<h2>Development</h2><p>If you want to adjust theme for your needs:</p>
+<ol>
+<li>Fork this repository and clone it to your local machine.</li>
+<li>Install dependencies: <code>npm install</code>.</li>
+<li>Start a local server with watcher: <code>npm start</code>.</li>
+<li>Edit your files and see changes in the opened browser.</li>
+</ol>
+<p>To take part in Ribbon development please read <a href="CONTRIBUTING.md">contributing guidelines</a> first and <a href="https://github.com/shower/shower/issues/new">file an issue</a> before sending any pull request.</p>
+<hr>
+<p>Licensed under <a href="LICENSE.md">MIT License</a>.</p>
