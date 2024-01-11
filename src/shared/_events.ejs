@@ -52,7 +52,10 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs">
 					<li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#year2023">2023</a>
+                        <a class="nav-link active" data-toggle="tab" href="#year2024">2024</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#year2023">2023</a>
                     </li>
 					<li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#year2022">2022</a>
@@ -79,7 +82,10 @@
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-					<div class="tab-pane active container" id="year2023">
+				<div class="tab-pane active container" id="year2024">
+                        <%- partial("_events2024") %>
+                    </div>
+					<div class="tab-pane container" id="year2023">
                         <%- partial("_events2023") %>
                     </div>
 					<div class="tab-pane container" id="year2022">
