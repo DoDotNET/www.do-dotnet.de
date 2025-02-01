@@ -20,7 +20,7 @@ TZNAME:Daylight Savings Time
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-ORGANIZER:MAILTO:pmizel@do-dotnet.de
+ORGANIZER:MAILTO:chrkon@web.de
 DTSTART;TZID="Amsterdam, Berlin, Bern, Rom, Stockholm, Wien":20120104T180000
 DTEND;TZID="Amsterdam, Berlin, Bern, Rom, Stockholm, Wien":20120104T200000
 RRULE:FREQ=MONTHLY;INTERVAL=1;BYDAY=WE;BYSETPOS=1;WKST=SU
@@ -31,10 +31,11 @@ UID:040000008200E00074C5B7101A82E00800000000F0CCCD5ACC93CC010000000000000000100
  0000085593315D10B1244855A1C3771A0E633
 DTSTAMP:20111026T084522Z
 DESCRIPTION:\nDie Dodnedder\, die .NET-Community der Metropolregion
-  Dortmund\, treffen sich auch 2012+ erneut. \nEs gibt natürlich eine
-  Menge kompetenter Fachgespräche. \;-) \n\n\nIch freu mich auf das Treffen\n
-   Paul Mizel\n\nWeb: www.do-dotnet.de\nE-Mail: pmizel@do-dotnet.de\nMobil:
-  0151 2278 4564\n
+  Dortmund\, treffen sich seit 2008 immer am 1. Mittwoch im Monat. Nach der Corona Pause gingen die Treffen weiter. \nEs gibt natürlich eine
+  Menge kompetenter Fachgespräche und auch einen intensiven Austausch untereinander. \;-) \n
+  Für genauere Infos über das nächste Treffen schaut bitte unter MeetUp oder der Webseite nach.
+\n\nIch freu mich auf das Treffen\n
+   Christof Konstantinopoulos\n\nMeetUp: www.meetup.com/de-de/do-dotnet/ \nWeb: www.do-dotnet.de\nE-Mail: chrkon@web.de\nMobil: 0179 6007988\n
 SUMMARY:.NET User Group Dortmund Treffen
 PRIORITY:1
 X-MICROSOFT-CDO-IMPORTANCE:2
